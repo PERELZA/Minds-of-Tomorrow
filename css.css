@@ -57,6 +57,14 @@ footer p {
     display: block; /* Elimina el espacio en blanco generado por imágenes inline */
 }
 
+#P1{
+    font-size: 80px;
+}
+
+#P2{
+    font-size: 30px;
+}
+
 #pe{
     font-size: 10px;
 }
