@@ -1,47 +1,47 @@
 
 /* Ajustes generales */
 body {
-    font-family: "Outfit";
-    padding: 0%;
-    margin: 0;
+    font-family: "Outfit"; /* Define la fuente del sitio como "Outfit" */
+    padding: 0%; /* Elimina el relleno del cuerpo */
+    margin: 0; /* Elimina los márgenes por defecto del cuerpo */
 }
 
 /* Sección Hero */
 .hero {
-    background: url(IMG/banner-2.jpg) no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: rgb(0, 0, 0);
+    background: url(IMG/banner-2.jpg) no-repeat center center/cover; /* Establece una imagen de fondo centrada y que cubra toda la sección */
+    height: 100vh; /* Altura igual al 100% de la ventana del navegador */
+    display: flex; /* Usa Flexbox para el diseño interno */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto */
+    color: rgb(0, 0, 0); /* Color del texto negro */
 }
 
 .hero h1 {
-    padding: 15px;
+    padding: 15px; /* Relleno alrededor del título */
 }
 
 /* Sección de programas */
 .programs {
-    background-color: #2ee59d;
-    padding: 0;
-    margin: 0;
+    background-color: #2ee59d; /* Color de fondo verde claro */
+    padding: 0; /* Sin relleno */
+    margin: 0; /* Sin márgenes */
 }
 
 /* Footer */
 footer {
-    background: black;
-    color: white;
+    background: black; /* Fondo negro para el pie de página */
+    color: white; /* Texto blanco */
 }
 
 footer .row {
-    margin: 0;
-    padding: 10px 0;
+    margin: 0; /* Elimina márgenes de la fila */
+    padding: 10px 0; /* Relleno vertical de 10px */
 }
 
 footer p {
-    margin: 0;
-    padding: 5px 0;
+    margin: 0; /* Elimina margen de los párrafos */
+    padding: 5px 0; /* Relleno vertical de 5px */
 }
 
 .custom-gallery .col-6, 
@@ -58,45 +58,44 @@ footer p {
 }
 
 #P1{
-    font-size: 80px;
+    font-size: 80px; /* Tamaño de fuente muy grande */
 }
 
 #P2{
-    font-size: 30px;
+    font-size: 30px; /* Tamaño de fuente medio */
 }
 
 #pe{
-    font-size: 10px;
+    font-size: 10px; /* Tamaño de fuente pequeño */
 }
 
 /* Sección de texto */
 .text-section {
     background-color: #007bff; /* Fondo azul */
-    color: rgb(0, 0, 0); /* Texto blanco */
+    color: rgb(0, 0, 0); /* Texto negro */
 }
 
 .text-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 2rem; /* Tamaño de fuente grande para los encabezados */
+    margin-bottom: 20px; /* Espacio inferior de 20px */
 }
 
 .text-section p {
-    font-size: 1.2rem;
-    margin: 0;
+    font-size: 1.2rem; /* Tamaño de fuente moderado para párrafos */
+    margin: 0; /* Elimina márgenes */
 }
 
 /* Diseño responsive */
 @media (max-width: 700px) {
     .hero h1 {
-        font-size: 24px;
+        font-size: 24px; /* Reduce el tamaño del título en pantallas pequeñas */
     }
 
     .programs .row {
-        flex-direction: column;
+        flex-direction: column; /* Cambia la dirección del layout a columna en pantallas pequeñas */
     }
 
     .programs .col-6 {
-        width: 100%;
+        width: 100%; /* Las columnas ocupan todo el ancho */
     }
 }
-
